@@ -2,6 +2,36 @@
   text-align: center;
 }
 
+.plist {
+  display: flex;
+  justify-content: space-between;
+  flex-wrap: wrap;
+}
+
+.product {
+  height: 250px;
+  width: 300px;
+  border: 1px solid #ccc;
+  padding: 10px;
+  margin: 10px;
+  text-align: center;
+}
+
+.select-products {
+  margin-top: 20px;
+}
+
+button {
+  background-color: #10365f;
+  color: white;
+  border: none;
+  padding: 5px 10px;
+  cursor: pointer;
+}
+
+button:hover {
+  background-color: #95bfec;
+}
 .App-logo {
   height: 40vmin;
   pointer-events: none;
